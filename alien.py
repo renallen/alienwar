@@ -43,6 +43,4 @@ class Alien(Sprite):
         
         if self.rect.right >= self.screen.get_rect().right or self.rect.left <= 0:
             self.x+=-self.speed_factorx*r
-#    def draw_bullet(self):
-#        """在屏幕上绘制子弹"""
-#        pygame.draw.rect(self.screen, self.color, self.rect)
+
